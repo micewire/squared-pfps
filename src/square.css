@@ -1,0 +1,38 @@
+[class^="avatar"], [class^="userAvatar"], [class^="avatarSmall"]  {
+    border-radius: var(--rounder) !important;
+}
+
+
+[class^="avatar"] foreignObject[mask*="url(#"] {
+    mask: none !important;
+    -webkit-mask: none !important;
+    
+}
+
+[class^="header"] foreignObject[mask*="url(#"] {
+    mask: none !important;
+    -webkit-mask: none !important;
+}
+
+
+
+header [id^="uid"] 
+{
+    display: none !important;
+}
+
+#app-mount .wrapper__44b0c rect {
+    mask: none;
+    fill: transparent !important;
+    pointer-events: none;
+}
+
+#app-mount .wrapper__44b0c .mask__44b0c > circle {
+  display: none !important;
+}
+
+svg[class*="avatarHint"] > foreignObject {
+    /* That little overlay "View Profile" when you hover over a profile picture in a popout */
+    mask: none;
+    border-bottom-width: 0px !important;
+}
