@@ -32,9 +32,6 @@ header [id^="uid"]
     pointer-events: none;
 }
 
-#app-mount .wrapper__44b0c .mask__44b0c > circle {
-  display: none !important;
-}
 
 svg[class*="avatarHint"] > foreignObject {
     /* That little overlay "View Profile" when you hover over a profile picture in a popout */
