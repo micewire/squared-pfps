@@ -1,3 +1,8 @@
+:root {
+    --rounder:10px;
+}
+
+
 [class^="avatar"], [class^="userAvatar"], [class^="avatarSmall"]  {
     border-radius: var(--rounder) !important;
 }
