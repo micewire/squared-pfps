@@ -1,0 +1,6 @@
+@import url("https://raw.githubusercontent.com/micewire/squared-pfps/refs/heads/main/src/square.css");
+
+:root {
+    /* "roundness" value, the lower the number, the less round will the avatars be. */
+    --rounder:10px;
+}
